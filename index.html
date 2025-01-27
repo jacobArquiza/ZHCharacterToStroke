@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Animation Example</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+</head>
+<body>
+    <section class="holder">
+        <h1>STROKE ORDER GENERATOR</h1>
+    </section>
+    <section class="holder">
+        <form id="input-form" action="">
+            <H3>INPUTS</H3>
+            <label for="input">Enter Chinese Characters (Ignores English and Pinyin):</label>
+            <textarea id="input" rows="4" class="input"></textarea>
+            <button type="submit" id="generate-strokes">GENERATE STROKES</button>
+        </form>
+    </section>
+    <section class="holder" id="output-holder">
+        <h3>STROKE ORDERS</h3>
+        <div id="output">
+        </div>
+    </section>
+   
+</body>
+<script src="main.js" defer></script>
+</html>
